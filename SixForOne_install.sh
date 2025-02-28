@@ -322,8 +322,6 @@ install_dependency() {
   sucess_or_fail "unzip安装"
   ${cmd} -y install zip
   sucess_or_fail "zip安装"
-  ${cmd} -y install curl
-  sucess_or_fail "curl安装"
   ${cmd} -y install tar
   sucess_or_fail "tar安装"
   ${cmd} -y install git
